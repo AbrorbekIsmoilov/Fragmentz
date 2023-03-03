@@ -6,7 +6,9 @@ plugins {
 android {
     namespace 'com.example.fragment'
     compileSdk 33
-
+    viewBinding {
+        enabled true
+    }
     defaultConfig {
         applicationId "com.example.fragment"
         minSdk 26
